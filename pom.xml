@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.sonatype.mavenbook.simpleweb</groupId>
   <artifactId>parent</artifactId>
-  <version>0.8-SNAPSHOT</version>
+  <version>0.8</version>
   <packaging>pom</packaging>
   <name>Simple Web Chapter Parent Project</name>
   <modules>
@@ -16,8 +16,8 @@
   <distributionManagement>
 	<repository>
 		<id>nexus</id>
-		<name>Snapshots</name>
-		<url>http://ec2-13-59-19-100.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+		<name>Releases</name>
+		<url>http://ec2-13-59-19-100.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
 	</repository>
 	</distributionManagement> 
   
